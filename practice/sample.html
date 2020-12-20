@@ -1,0 +1,109 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Home-page</title>
+        <link rel="stylesheet" href="/practice/sample.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    </head>
+    <body>
+        <div class="header">
+             
+       
+         <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/practice/logo.jpg" alt="no image" width="125px">
+                    <h1>FarmSell</h1>
+                </div>
+            
+             
+                <nav>
+                    <ul>
+                        <li><a href="/practice/index.html">Login</a></li>
+                        <li><a href="/practice/signup1.html">Signup</a></li>
+                    </ul>
+                </nav>
+                 <img src="cart.png" width="30px" height="30px">
+                 <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h2>Welcome to Farmsell!</h2>
+                        <p> A Platform for all the farmers to sell their agricultural products to local traders.</p>
+                        <a href="login_page.html" class="btn" onclick="navigate()">Explore now</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="home1.jpg" alt="no image">
+                    </div>
+                </div>
+            </div>
+        </div>    
+       <!-------featured categories and products------------>
+       <div class="categories">
+           <div class="small-container">
+               <h2 class="title">Featured Products</h2>
+               <div class="row">
+                <div class="col3">
+                    <img src="cereals.jpg">
+                    <h4>Cerials</h4>
+                    <div class="rating"></div>
+                </div>
+                <div class="col3"><img src="pulses1.jpg"><h4>Pulses</h4></div>
+                <div class="col3"><img src="vegetables.jpg"><h4>Vegetables</h4></div>
+                <div class="col3"><img src="fruits.jpg"><h4>Fruits</h4></div>
+               </div>
+            </div>
+           
+        </div>
+        <!---------tagline------>
+        <div class="offer">
+            <div class="small-container">
+                <div class="row"></div>
+                    <div class="col2"><img src="mainpage_below.jpg" class="farmer-image"></div>
+                    <div class="col2">
+                        <p>No proper rates for the products do not worry!</p>
+                        <h1>Farmsell</h1>
+                        <p><small>Allows you connect with the local traders directly...</small></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!----------footer-------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Contact us on:</h3>
+                        <p>Karthik Y<br> Karthikbhargav1718@gmail.com <br>7892142054<br><br>Harsha K S<br>harshaksrinivas@gmail.com<br>8050018571</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="logo.jpg" alt="no image">
+                        <h1>FarmSell</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------js for toggle menu-------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+       
+    </body>
+</html>

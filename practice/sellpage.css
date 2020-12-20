@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  transform: translate();
+}
+
+.sellhead {
+  color: white;
+  text-align: center;
+  padding: 75px;
+  font-family: verdana;
+}
+.head1 {
+  padding-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+.textbox1 {
+  size: 60px;
+  margin: 20px;
+}
+.textbox2 {
+  margin: 3px;
+  padding: 4px;
+  size: 60px;
+}
+.textbox3 {
+  margin: 3px;
+  padding: 4px;
+  size: 60px;
+}
+.textbox4 {
+  margin: 3px;
+  padding: 4px;
+  size: 60px;
+}
+.head2 {
+  padding-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+.button1 {
+  transform: translate(0%, 100%);
+  padding-left: 0px;
+}
+.mainhead {
+  border-bottom: 3px solid;
+  border-style: groove;
+
+  box-sizing: border-box;
+}
+.head3 {
+  padding-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+.head4 {
+  padding-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+.imageup {
+  position: center;
+  padding-top: 20px;
+  padding-left: 15px;
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+}
+
+#nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav img{
+  width: 100px;
+    margin-bottom: 10px;
+}
+
+#heading { 
+  padding: 20px;
+}
+
+#navlinks {
+  margin-right: 10px;
+}
+
+#navlinks a {
+  color: white;
+  font-size: large;
+  margin: 12px;
+  text-decoration: none;
+}
+
+.content {
+  background: url("signup.jpg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 92vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#text {
+  color: black;
+  font-size: 25px;
+  width: 375px;
+  padding: 30px;
+}
+
+#text p {
+  padding: 10px 0px;
+}

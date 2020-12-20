@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body background="login.jpg"></body>
+  <div id="nav">
+    <div id="heading">
+      <img src="logo.jpg">
+      <h1>FarmSell</h1>
+    </div>
+    <div id="navlinks">
+      <a href="sample.html">Home</a>
+      
+      
+    </div>
+  </div>
+
+  <div id="login_div" class="main-div">
+    <h3>Login</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to FarmSell web login. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+   const firebaseConfig = {
+  apiKey: "AIzaSyCcfNZRZEIugsIWSP17nj4inO8jh-GEHG8",
+  authDomain: "agriculture-85bbe.firebaseapp.com",
+  projectId: "agriculture-85bbe",
+  storageBucket: "agriculture-85bbe.appspot.com",
+  messagingSenderId: "1097947396822",
+  appId: "1:1097947396822:web:d67343eebba0af3d91a777",
+  measurementId: "G-YJV0NKP44J"
+};
+
+firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="index.js"></script>
+
+</body>
+</html>
